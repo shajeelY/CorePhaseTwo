@@ -2,9 +2,9 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Word" representedClassName="Word" syncable="YES">
         <attribute name="ent_seq" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
-        <attribute name="k_ele" attributeType="Transformable" customClassName="[String]"/>
-        <attribute name="r_ele" attributeType="Transformable" customClassName="[String]"/>
-        <attribute name="sense" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="k_ele" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[String]"/>
+        <attribute name="r_ele" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[String]"/>
+        <attribute name="sense" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[String]"/>
         <uniquenessConstraints>
             <uniquenessConstraint>
                 <constraint value="ent_seq"/>

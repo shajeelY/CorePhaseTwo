@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0B0CEF25743E650077BC99 /* Word+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B0CED25743E650077BC99 /* Word+CoreDataClass.swift */; };
+		FC0B0CF025743E650077BC99 /* Word+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B0CEE25743E650077BC99 /* Word+CoreDataProperties.swift */; };
 		FC43749825713B1A000C2FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43749725713B1A000C2FFA /* AppDelegate.swift */; };
 		FC43749A25713B1A000C2FFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43749925713B1A000C2FFA /* SceneDelegate.swift */; };
 		FC43749C25713B1A000C2FFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43749B25713B1A000C2FFA /* ViewController.swift */; };
@@ -14,9 +16,19 @@
 		FC4374A225713B1A000C2FFA /* CorePhaseTwoA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC4374A025713B1A000C2FFA /* CorePhaseTwoA.xcdatamodeld */; };
 		FC4374A425713B1A000C2FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4374A325713B1A000C2FFA /* Assets.xcassets */; };
 		FC4374A725713B1A000C2FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4374A525713B1A000C2FFA /* LaunchScreen.storyboard */; };
+		FC4374B025713D97000C2FFA /* JMdict_e.xml in Resources */ = {isa = PBXBuildFile; fileRef = FC4374AF25713D97000C2FFA /* JMdict_e.xml */; };
+		FC5E506F25770DB400B1E305 /* WordError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E506E25770DB400B1E305 /* WordError.swift */; };
+		FCB7ECF8257235C1004A2717 /* Romaji.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7ECF7257235C1004A2717 /* Romaji.swift */; };
+		FCB7ECFC257235E5004A2717 /* Deinflector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7ECFB257235E5004A2717 /* Deinflector.swift */; };
+		FCB7ED002572366B004A2717 /* Regex in Frameworks */ = {isa = PBXBuildFile; productRef = FCB7ECFF2572366B004A2717 /* Regex */; };
+		FCBB23F725760C7E00B56BC2 /* WordProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBB23F625760C7E00B56BC2 /* WordProperties.swift */; };
+		FCBB23FC2576270B00B56BC2 /* WordProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBB23FB2576270B00B56BC2 /* WordProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC0B0CE325743D2A0077BC99 /* 1.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 1.1.xcdatamodel; sourceTree = "<group>"; };
+		FC0B0CED25743E650077BC99 /* Word+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FC0B0CEE25743E650077BC99 /* Word+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		FC43749425713B1A000C2FFA /* CorePhaseTwoA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorePhaseTwoA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC43749725713B1A000C2FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC43749925713B1A000C2FFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +38,12 @@
 		FC4374A325713B1A000C2FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4374A625713B1A000C2FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC4374A825713B1A000C2FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4374AF25713D97000C2FFA /* JMdict_e.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = JMdict_e.xml; path = ../../JMdict_e.xml; sourceTree = "<group>"; };
+		FC5E506E25770DB400B1E305 /* WordError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordError.swift; sourceTree = "<group>"; };
+		FCB7ECF7257235C1004A2717 /* Romaji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Romaji.swift; sourceTree = "<group>"; };
+		FCB7ECFB257235E5004A2717 /* Deinflector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deinflector.swift; sourceTree = "<group>"; };
+		FCBB23F625760C7E00B56BC2 /* WordProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordProperties.swift; sourceTree = "<group>"; };
+		FCBB23FB2576270B00B56BC2 /* WordProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB7ED002572366B004A2717 /* Regex in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +77,40 @@
 		FC43749625713B1A000C2FFA /* CorePhaseTwoA */ = {
 			isa = PBXGroup;
 			children = (
+				FCBB23F925760C8500B56BC2 /* Shared */,
+				FCB7ECF62572355F004A2717 /* Dictionary Decode */,
+				FC43749B25713B1A000C2FFA /* ViewController.swift */,
 				FC43749725713B1A000C2FFA /* AppDelegate.swift */,
 				FC43749925713B1A000C2FFA /* SceneDelegate.swift */,
-				FC43749B25713B1A000C2FFA /* ViewController.swift */,
 				FC43749D25713B1A000C2FFA /* Main.storyboard */,
 				FC4374A325713B1A000C2FFA /* Assets.xcassets */,
 				FC4374A525713B1A000C2FFA /* LaunchScreen.storyboard */,
 				FC4374A825713B1A000C2FFA /* Info.plist */,
 				FC4374A025713B1A000C2FFA /* CorePhaseTwoA.xcdatamodeld */,
+				FC4374AF25713D97000C2FFA /* JMdict_e.xml */,
 			);
 			path = CorePhaseTwoA;
+			sourceTree = "<group>";
+		};
+		FCB7ECF62572355F004A2717 /* Dictionary Decode */ = {
+			isa = PBXGroup;
+			children = (
+				FCB7ECF7257235C1004A2717 /* Romaji.swift */,
+				FCB7ECFB257235E5004A2717 /* Deinflector.swift */,
+			);
+			path = "Dictionary Decode";
+			sourceTree = "<group>";
+		};
+		FCBB23F925760C8500B56BC2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FCBB23F625760C7E00B56BC2 /* WordProperties.swift */,
+				FCBB23FB2576270B00B56BC2 /* WordProvider.swift */,
+				FC0B0CED25743E650077BC99 /* Word+CoreDataClass.swift */,
+				FC0B0CEE25743E650077BC99 /* Word+CoreDataProperties.swift */,
+				FC5E506E25770DB400B1E305 /* WordError.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +129,9 @@
 			dependencies = (
 			);
 			name = CorePhaseTwoA;
+			packageProductDependencies = (
+				FCB7ECFF2572366B004A2717 /* Regex */,
+			);
 			productName = CorePhaseTwoA;
 			productReference = FC43749425713B1A000C2FFA /* CorePhaseTwoA.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +159,9 @@
 				Base,
 			);
 			mainGroup = FC43748B25713B1A000C2FFA;
+			packageReferences = (
+				FCB7ECFE2572366B004A2717 /* XCRemoteSwiftPackageReference "Regex" */,
+			);
 			productRefGroup = FC43749525713B1A000C2FFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +178,7 @@
 			files = (
 				FC4374A725713B1A000C2FFA /* LaunchScreen.storyboard in Resources */,
 				FC4374A425713B1A000C2FFA /* Assets.xcassets in Resources */,
+				FC4374B025713D97000C2FFA /* JMdict_e.xml in Resources */,
 				FC43749F25713B1A000C2FFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +191,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC43749C25713B1A000C2FFA /* ViewController.swift in Sources */,
+				FCB7ECF8257235C1004A2717 /* Romaji.swift in Sources */,
+				FCB7ECFC257235E5004A2717 /* Deinflector.swift in Sources */,
+				FC0B0CEF25743E650077BC99 /* Word+CoreDataClass.swift in Sources */,
+				FCBB23FC2576270B00B56BC2 /* WordProvider.swift in Sources */,
 				FC43749825713B1A000C2FFA /* AppDelegate.swift in Sources */,
+				FC5E506F25770DB400B1E305 /* WordError.swift in Sources */,
 				FC43749A25713B1A000C2FFA /* SceneDelegate.swift in Sources */,
 				FC4374A225713B1A000C2FFA /* CorePhaseTwoA.xcdatamodeld in Sources */,
+				FCBB23F725760C7E00B56BC2 /* WordProperties.swift in Sources */,
+				FC0B0CF025743E650077BC99 /* Word+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,13 +403,33 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		FCB7ECFE2572366B004A2717 /* XCRemoteSwiftPackageReference "Regex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sharplet/Regex.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FCB7ECFF2572366B004A2717 /* Regex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCB7ECFE2572366B004A2717 /* XCRemoteSwiftPackageReference "Regex" */;
+			productName = Regex;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
 		FC4374A025713B1A000C2FFA /* CorePhaseTwoA.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				FC0B0CE325743D2A0077BC99 /* 1.1.xcdatamodel */,
 				FC4374A125713B1A000C2FFA /* CorePhaseTwoA.xcdatamodel */,
 			);
-			currentVersion = FC4374A125713B1A000C2FFA /* CorePhaseTwoA.xcdatamodel */;
+			currentVersion = FC0B0CE325743D2A0077BC99 /* 1.1.xcdatamodel */;
 			path = CorePhaseTwoA.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
